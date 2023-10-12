@@ -35,6 +35,11 @@ class ViewController: UIViewController {
         present(controller, animated: true, completion: nil)
     }
 
+    @IBAction func showActivity() {
+        let image = UIImage()
+        let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        present(controller, animated: true, completion: nil)
+    }
 
 }
 

@@ -34,6 +34,15 @@
                                     <action selector="showAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="BJb-as-diC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhJ-86-5ex">
+                                <rect key="frame" x="142" y="506" width="110" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Active view"/>
+                                <connections>
+                                    <action selector="showActivity" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xO-2E-R1Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
