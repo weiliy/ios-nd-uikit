@@ -17,7 +17,7 @@ class ZipCodeFieldDelegate: NSObject, UITextFieldDelegate {
         
         var newText = textField.text! as NSString
         newText = newText.replacingCharacters(in: range, with: string) as NSString
-        var newStr = newText as String
+        let newStr = newText as String
         
         print("newstr \(newStr)")
         let numberStr = newStr.filter{ $0.isNumber }
