@@ -15,6 +15,7 @@
 		4D08C4901A126EC400A95F43 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */; };
 		4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */; };
 		B31B55802B05A13200F31144 /* ZipCodeFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B557F2B05A13200F31144 /* ZipCodeFieldDelegate.swift */; };
+		B31B55822B0AEAA000F31144 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31B55812B0AEAA000F31144 /* CashTextFieldDelegate.swift */; };
 		B341C5C92B045204001F06B1 /* RandomColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B341C5C82B045204001F06B1 /* RandomColorTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
 		4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
 		B31B557F2B05A13200F31144 /* ZipCodeFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeFieldDelegate.swift; sourceTree = "<group>"; };
+		B31B55812B0AEAA000F31144 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
 		B341C5C82B045204001F06B1 /* RandomColorTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */,
 				B341C5C82B045204001F06B1 /* RandomColorTextFieldDelegate.swift */,
 				B31B557F2B05A13200F31144 /* ZipCodeFieldDelegate.swift */,
+				B31B55812B0AEAA000F31144 /* CashTextFieldDelegate.swift */,
 			);
 			name = "Text Field Delegates";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31B55822B0AEAA000F31144 /* CashTextFieldDelegate.swift in Sources */,
 				B31B55802B05A13200F31144 /* ZipCodeFieldDelegate.swift in Sources */,
 				4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */,
 				4D08C4721A126D0300A95F43 /* ViewController.swift in Sources */,
